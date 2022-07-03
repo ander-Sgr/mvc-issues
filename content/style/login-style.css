@@ -1,0 +1,41 @@
+body {
+    background-color: #1F1D20;
+
+}
+
+.image-back {
+    background-image: url("../images/school-login.jpg");
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+    width: 535px;
+    height: 650px;
+
+}
+
+.top-mg {
+    margin-top: 10em;
+}
+
+.txt-center {
+    margin-left: 6em;
+}
+
+@media only screen and (max-width: 1399px) {
+
+    .image-back {
+        background-image: url("../images/school-login.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 470px;
+        height: 650px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+
+    .image-back {
+        background-image: url("../images/school-login.jpg");
+        display: none;
+    }
+}
